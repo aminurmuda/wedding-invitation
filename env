@@ -1,0 +1,31 @@
+NEXT_PUBLIC_BASE_URL=http://localhost:3000/ 
+NEXT_PUBLIC_GOOGLE_ANALYTICS_ID=
+NEXT_PUBLIC_APP_ENV=development 
+
+# https://handsondataviz.org/google-sheets-api-key.html
+GOOGLE_SHEETS_CLIENT_EMAIL=
+GOOGLE_SHEETS_PRIVATE_KEY=
+
+# https://docs.google.com/spreadsheets/d/{SPREADSHEET_ID}/edit
+SPREADSHEET_ID=
+
+# https://console.cloud.google.com/apis/credentials?project=your-project-name
+# you should have make new project in google cloud
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+JWT_SIGNING_PRIVATE_KEY= 
+VALID_EMAILS=test@gmail.com_test2@gmail.com
+NEXT_PUBLIC_USE_TEMPLATE=true
+SECRET=
+
+NEXT_PUBLIC_BRIDE_FULL_NAME=Bride Full Name
+NEXT_PUBLIC_BRIDE_NICK_NAME=Bride
+NEXT_PUBLIC_BRIDE_FATHER_NAME=Bride Father Name
+NEXT_PUBLIC_BRIDE_MOTHER_NAME=Bride Mother Name
+
+NEXT_PUBLIC_GROOM_FULL_NAME=Groom Full Name
+NEXT_PUBLIC_GROOM_NICK_NAME=Groom
+NEXT_PUBLIC_GROOM_FATHER_NAME=Groom Father Name
+NEXT_PUBLIC_GROOM_MOTHER_NAME=Groom Mother Name
+
