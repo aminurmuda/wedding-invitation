@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import "../styles/globals.css";
 import { handelRightClick } from "../utils/AppUtility";
 import type { AppProps } from "next/app";
-import { SessionProvider } from "next-auth/react";
 // import ReactGA from "react-ga";
 // const googleAnalyticsId = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "";
 
@@ -39,9 +38,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   });
   return (
     <>
-      <SessionProvider session={session}>
-        <Component {...pageProps} />
-      </SessionProvider>
+      <Component {...pageProps} />
     </>
   );
 }
